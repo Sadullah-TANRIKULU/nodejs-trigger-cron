@@ -6,7 +6,7 @@ const port = 3000;
 
 const websiteUrl = 'https://weekly-automated-reading-job-2cfbf.web.app';
 
-app.get("/", (res, req) => {
+app.get("/", (req, res) => {
   res.send("Serivce works on render to trigger `https://weekly-automated-reading-job-2cfbf.web.app`")
 })
 
