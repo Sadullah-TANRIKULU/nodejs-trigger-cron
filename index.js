@@ -21,7 +21,7 @@ const triggerWebsite = async () => {
   }
 };
 
-cron.schedule('10 11 1 * * *', () => {
+cron.schedule('10 29 2 * * *', () => {
 
     triggerWebsite();
     console.log("website is triggered");
