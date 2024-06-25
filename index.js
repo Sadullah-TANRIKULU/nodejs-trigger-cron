@@ -6,6 +6,10 @@ const port = 3000;
 
 const websiteUrl = 'https://weekly-automated-reading-job-2cfbf.web.app';
 
+app.get("/", (res, req) => {
+  res.send("Serivce works on render to trigger `https://weekly-automated-reading-job-2cfbf.web.app`")
+})
+
 const triggerWebsite = async () => {
   try {
     const response = await fetch(websiteUrl);
